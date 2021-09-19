@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #333333;
+    background-color: #333;
     font-family: 'Roboto Mono', monospace;
     color:lightgrey;
 }
@@ -35,7 +35,32 @@ body {
 
 .header { text-align: center;
     font-weight: bolder;
+}
 
+
+.heading_style{
+      text-align: center; 
   }
 
-  .header_image{max-width:100%;height:auto}img{vertical-align:middle}
+.box {display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 100%
+}
+
+
+.box_image {
+  flex-basis: 40%
+}
+.box_text {
+  padding-left: 20px;
+}
+
+.app_image {
+    flex-basis: 40%;
+    width: 368px;
+    height: 706px;
+    padding-right: 20px;
+}
