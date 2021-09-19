@@ -64,3 +64,30 @@ img {
     height: 706px;
     padding-right: 20px;
 }
+
+.mb_image {
+    flex-basis: 40%;
+    width: 634px;
+    height: 437px;
+    padding-right: 20px;
+}
+
+.vark_image {
+    flex-basis: 40%;
+    width: 506px;
+    height: 430px;
+    padding-right: 20px;
+}
+
+
+
+.nep a:link {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:lightgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
